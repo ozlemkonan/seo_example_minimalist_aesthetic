@@ -1,0 +1,59 @@
+
+
+.landingpage { 
+        background-image: url(../image/landing-page.jpg) ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        }
+h1 {text-align: center;}
+
+
+.info {text-align: center;}
+
+nav { margin: auto;
+      width: 30%;}
+
+ul { list-style-type: none;
+        margin: auto; }
+
+a { text-decoration: none;
+    font-weight: bold;
+    color:  rgb(0, 7, 7); }
+
+li {    display: inline;
+        line-height: 50px; 
+        padding:10px;
+        text-align:center; 
+        background-color:  rgb(241, 246, 247); 
+        margin-right: 20px;
+        margin-left: 20px; }
+
+fieldset { display: block; 
+           width: fit-content; 
+           padding: 15px;
+           margin: 0 auto;
+           background-color:  rgb(241, 246, 247);}
+
+.content { text-align: center;}
+
+.insta {font-size: x-large;}
+
+.about { text-align: center;}
+
+#gallery ul {list-style-type: none;
+}
+#gallery li { display: inline; 
+              padding: 10px;
+              }
+ 
+#gallery img {border-style: none;
+            transition: all 1s ease-in-out;
+           }
+
+#gallery img:hover{
+                transform: scale(1.5); 
+             }
