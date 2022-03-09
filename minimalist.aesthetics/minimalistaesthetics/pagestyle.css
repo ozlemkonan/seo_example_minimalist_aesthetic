@@ -1,0 +1,106 @@
+
+nav ul { list-style-type: none;
+          margin:auto;
+           } 
+nav a { text-decoration: none;
+          font-weight: bold;
+          color: rgb(0, 7, 7);
+          }
+          @media screen and (max-width:480px) {
+                nav ul li { height: 1.5rem; line-height: 1.5rem; text-align:center; border: 1px solid rgb(170, 206, 247); background-color:  rgb(241, 246, 247)}
+         }
+         @media screen and (min-width:481px) {
+            nav ul li { display: inline; 
+            line-height: 50px; 
+           padding:10px;
+           text-align:center; 
+           background-color:  rgb(241, 246, 247);
+           margin: 0 auto;}
+         nav { margin: auto;
+                width: 35%;}
+         }
+.landingpage { 
+        background-image: url(../minimalistaesthetics/minimalist-aesthetics-with-her-dog-in-bakerbeach.jpg) ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 490px;
+        }
+h1 {text-align: center;}
+.info {text-align: center;}
+.glamping { width: 80%;
+        margin: 20px auto;
+        background-color:rgb(241, 246, 247) ;}
+.seo { width: 60%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color:rgb(241, 246, 247);}
+.seo h3 {text-align: center;
+        margin-top: auto;
+        }   
+.seo ul { list-style-type: none;
+        margin:auto;
+         }
+.seo {text-align: center;}
+.seo a {text-decoration: none;
+        font-weight: bold;
+        color: rgb(46, 130, 141);}
+.ss li {margin-bottom: 10px;
+        padding: 10px;}
+.ss  { width: 60%;
+        margin: 20px auto;
+        background-color:rgb(241, 246, 247);
+        font-weight: bold;
+       padding: 20px;}
+
+.ss h3 {text-align: center;}
+.ligh {font-weight: lighter;}
+.report {width: 60%;
+         margin: 20px auto;
+         background-color:rgb(241, 246, 247);
+          padding: 20px;}
+.report h3 {text-align: center;}
+.pdf { width:35%;
+        margin: 10px auto;
+        text-align: center;
+       border: solid rgb(46, 130, 141);
+       border-radius: 10px;
+       padding: 10px;
+       background-color: rgb(207, 242, 245);}         
+.report a {text-decoration: none;
+          font-weight: bold;
+          color: rgb(46, 130, 141);}          
+.glamping h2 {text-align: center;
+                  padding: 5px;}
+.glamping p {padding: 20px;}
+.glamping a {text-decoration: none;
+             font-weight: bold;
+             color: rgb(46, 130, 141);
+}
+.pi { width: 342px;
+        margin: 10px auto;}
+.cen {text-align: center;}
+
+fieldset { display: block; 
+           width: fit-content; 
+           padding: 15px;
+           margin: 0 auto;
+           background-color:  rgb(241, 246, 247);}
+.content { text-align: center;}
+.insta {font-size: x-large;}
+.about { text-align: center;}
+#gallery ul {list-style-type: none;
+        margin: 0 auto;
+}
+#gallery li { display: inline; 
+              padding: 10px;
+              margin: 0 auto;
+              }
+#gallery img {border-style: none;
+            transition: all 1s ease-in-out;    
+           }
+#gallery img:hover{
+                transform: scale(1.5); 
+             }
